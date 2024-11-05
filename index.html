@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+    <title>Personal Portfolio website</title>
+    <!-- Iconscout link -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <!-- google font(POPPINS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font(Outfit) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- FOR ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html" class="nav__logo">
+          <img src="./assets/logo.png" alt="Navbar Logo" />
+        </a>
+
+        <ul class="nav__menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__buttons">
+          <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+          <button class="nav__toggle-open"><i class="uil uil-bars"></i></button>
+          <button class="nav__toggle-close">
+            <i class="uil uil-multiply"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- ==========================End of nav=================== -->
+
+    <header>
+      <div class="container header__container">
+        <article class="header__image" data-aos="fade-up" data-aos-delay="400">
+          <div><img src="./assets/header-new.jpg" alt="Header Image" /></div>
+        </article>
+        <article class="header__content" data-aos="fade-in">
+          <h4>Hi,I'm <span> Esrat Jahan Jui</span>. And I'll</h4>
+          <h1>
+            Turning your Ideas into <br />
+            Interactive Web Experiences
+          </h1>
+          <p>
+            As an enthusiastic web design beginner, I’m passionate about
+            building intuitive and engaging websites. My goal is to create
+            impactful user experiences that combine functionality and
+            aesthetics. Check out my projects to see what I’ve been working on
+            and feel free to connect!
+          </p>
+          <div class="header__cta">
+            <a href="#contact" class="btn primary">Hire me</a>
+            <a href="#project" class="btn">Portfolio</a>
+          </div>
+        </article>
+        <ul class="header__socials">
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="uil uil-twitter-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/" target="_blank">
+              <i class="uil uil-linkedin-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/" target="_blank"
+              ><i class="uil uil-dribbble"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- ==========================End of header=================== -->
+
+    <!-- ==========================  About Section =================== -->
+
+    <section class="about" id="about">
+      <div class="container about__container">
+        <div class="about__image">
+          <img src="./assets/about.png" alt="About Image" />
+        </div>
+        <div class="about__details" data-aos="fade-in" data-aos-delay="300">
+          <h1>About me</h1>
+          <!-- <div class="about__cards">
+            <article class="about__card">
+              <i class="uil uil-award-alt"></i>
+              <h4>Experience</h4>
+              <small>8+ years</small>
+            </article>
+
+            <article class="about__card">
+              <i class="uil uil-swatchbook"></i>
+              <h4>Projects</h4>
+              <small>220+ completed</small>
+            </article>
+
+            <article class="about__card">
+              <i class="uil uil-users-alt"></i>
+              <h4>Clints</h4>
+              <small>100+ worldwide</small>
+            </article>
+          </div> -->
+
+          <p>
+            <br />
+            I'm a frontend web designer with a foundation in HTML, CSS,
+            JavaScript, React, and Tailwind CSS. I’m passionate about
+            transforming ideas into sleek, responsive websites with a focus on
+            seamless user experience. My goal is to build engaging and visually
+            appealing websites that make an impact, and I’m excited to keep
+            pushing my skills further.
+          </p>
+          <p>
+            Welcome to my portfolio! Hi,my name is Esrat Jahan Jui from
+            Naogaon,Rajshahi.I'm a Frontend web developer . I'm a self-taught,
+            passionate frontend web designer dedicated to creating clean,
+            modern, and responsive websites. I believe that every website should
+            not only be functional but also provide an engaging user experience.
+            Take a look around to see some of the projects I've completed so
+            far, and feel free to reach out—I’d love to connect and
+            collaborate!"
+          </p>
+          <a
+            href="./assets//resume.pdf"
+            class="btn primary"
+            download
+            target="_blank"
+            ><i class="uil uil-download-alt"></i>Download CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ==========================END About Section  =================== -->
+
+    <!-- ========================== Services Section =================== -->
+
+    <section class="services" id="services">
+      <h1>Services</h1>
+      <p>
+        I’ve applied my knowledge of HTML, CSS, Js, React, and Tailwind CSS to
+        bring unique ideas to life.
+      </p>
+      <div class="container services__container">
+        <ul class="services__left">
+          <li class="service__item frontend active">
+            <span><i class="uil uil-desktop"></i></span>
+            <div>
+              <h3>Frontend</h3>
+              <p>14 Projects</p>
+            </div>
+          </li>
+
+          <!-- <li class="service__item backend">
+            <span><i class="uil uil-server"></i></span>
+            <div>
+              <h3>Backend</h3>
+              <p>0 Projects</p>
+            </div>
+          </li>
+
+          <li class="service__item fullstack">
+            <span><i class="uil uil-apps"></i></span>
+            <div>
+              <h3>Fullstack</h3>
+              <p>0 Projects</p>
+            </div>
+          </li> -->
+        </ul>
+        <article
+          class="services__right"
+          data-aos="fade-in"
+          data-aos-delay="100"
+        >
+          <h3>Frontend Development</h3>
+          <p>
+            I offer comprehensive website design and development services,
+            creating visually appealing, responsive, and user-friendly websites
+            tailored to your needs. Utilizing HTML, CSS, JavaScript, React, and
+            Tailwind CSS,I bring your vision to life with modern web standards.
+            transforming your designs into interactive, high-performance web
+            applications. With expertise in React and Tailwind CSS, I build
+            efficient, maintainable, and scalable solutions that meet your
+            business goals.
+          </p>
+        </article>
+      </div>
+    </section>
+    <!-- ========================== SERVICES--END =================== -->
+
+    <!-- ========================== PROJECT =================== -->
+
+    <section class="projects" id="projects">
+      <h1>Recent Projects</h1>
+      <p>
+        Take a look at some of the projects I've recently completed, where I’ve
+        applied my knowledge of HTML, CSS, JavaScript, React, and Tailwind CSS
+        to bring unique ideas to life.
+      </p>
+      <ul class="projects__categories">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter=".frontend">Frontend</li>
+        <!-- <li data-filter=".backend">Html,Css,Js</li> -->
+        <li data-filter=".fullstack">React,Tailwind</li>
+      </ul>
+      <div class="container projects__container" data-aos="fade-in">
+        <!-- <article class="project mix fullstack" data-order="1">
+          <div class="project__image">
+            <img src="./assets/project1.jpg" alt="Project one" />
+          </div>
+          <h3>Project One Title (Fullstack)</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+            reprehenderit repellendus, consequuntur quidem natus suscipit, alias
+            minima aspernatur a aut nihil perferendis exercitationem omnis.
+            Quisquam optio eligendi veritatis commodi consequuntur!
+          </p>
+          <div class="project__cta">
+            <a href="https://egattor.com" class="btn sm primary" target="_blank"
+              >Demo</a
+            >
+            <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            >
+          </div>
+        </article> -->
+
+        <article class="project mix frontend" data-order="2">
+          <div class="project__image">
+            <img src="./assets/project2.png" alt="Project two" />
+          </div>
+          <h3>Car Landing Page (Frontend)</h3>
+          <p>
+            A sleek, modern landing page for a car company, designed to showcase
+            featured cars, key services, and special promotions. The layout is
+            responsive and highlights the aesthetic and technical features of
+            the cars, aiming to engage potential customers effectively.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/car-landing-page/  "
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a >-->
+          </div>
+        </article>
+
+        <article class="project mix fullstack" data-order="3">
+          <div class="project__image">
+            <img src="./assets/project3.png" alt="Project three" />
+          </div>
+          <h3>Weather App</h3>
+          <p>
+            A weather application that provides users with real-time weather
+            information for any city they search. With a user-friendly
+            interface, this app displays temperature, humidity, wind speed, and
+            other essential details, making it easy for users to stay updated on
+            the weather.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/weather/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+
+        <article class="project mix frontend" data-order="4">
+          <div class="project__image">
+            <img src="./assets/project4.png" alt="Project four" />
+          </div>
+          <h3>Pirthe - Company Website</h3>
+          <p>
+            A professional company website for Pirthe, designed to showcase the
+            company's services, mission, and values. The website features a
+            modern layout with easy navigation, allowing visitors to explore the
+            company’s offerings and learn more about its commitment to
+            excellence. The responsive design ensures a seamless experience
+            across all devices.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/pirthe/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+
+        <article class="project mix frontend" data-order="5">
+          <div class="project__image">
+            <img src="./assets/project5.png" alt="Project five" />
+          </div>
+          <h3>Personal Portfolio</h3>
+          <p>
+            personal portfolio website, focusing on a unique layout and design
+            elements. This project includes sections like About, Projects, and
+            Contact, aiming to present my frontend skills in a visually distinct
+            way. The site is fully responsive and provides a user-friendly
+            experience across devices.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/portfolio-website/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project6.png" alt="Project six" />
+          </div>
+          <h3>Text-to-Voice Converter</h3>
+          <p>
+            An interactive text-to-voice converter application that allows users
+            to input text and convert it to audio. This project is designed with
+            a simple, intuitive interface that provides an easy way for users to
+            experience voice synthesis technology in action.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/Text-To-Voice-Converter/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project7.png" alt="Project six" />
+          </div>
+          <h3>E-commerce Store Webpage</h3>
+          <p>
+            An interactive e-commerce website designed to showcase various
+            products for sale. This project features a user-friendly interface,
+            product categories, and a shopping cart functionality, enabling
+            users to browse and purchase items seamlessly. The site aims to
+            provide a complete online shopping experience.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/ecommerce-webpage-store1/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project8.png" alt="Project six" />
+          </div>
+          <h3>Amazon Demo Webpage</h3>
+          <p>
+            An interactive text-to-voice converter application that allows users
+            to input text and convert it to audio. This project is designed with
+            a simple, intuitive interface that provides an easy way for users to
+            experience voice synthesis technology in action.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/amazon-demo/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project9.png" alt="Project six" />
+          </div>
+          <h3>Calculator</h3>
+          <p>
+            A simple yet functional web-based calculator that performs basic
+            arithmetic operations. This project showcases an easy-to-use
+            interface, enabling users to input numbers and operations
+            effortlessly. The calculator is designed with a clean layout and
+            responsive design for accessibility on all devices.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/calculator/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project10.png" alt="Project six" />
+          </div>
+          <h3>E-School Project</h3>
+          <p>
+            An educational website aimed at providing resources and information
+            for students and teachers. This project features sections for
+            courses, study materials, and contact information, all designed with
+            a user-friendly layout. The site focuses on enhancing the learning
+            experience through easy navigation and accessibility.Its not responsive
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/e-school-project/"  
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+        <article class="project mix backend" data-order="6">
+          <div class="project__image">
+            <img src="./assets/project11.png" alt="Project six" />
+          </div>
+          <h3>Quiety Webpage</h3>
+          <p>
+           A modern, minimalist webpage designed for promoting a quiet retreat or relaxation design. The site emphasizes tranquility with its calming design and clear layout, providing information on services, amenities, and contact details. Its not responsive.
+          </p>
+          <div class="project__cta">
+            <a
+              href="https://esratjahanjui.github.io/Quiety-webpage/"
+              class="btn sm primary"
+              target="_blank"
+              >Demo</a
+            >
+            <!-- <a href="https://github.com" class="btn sm" target="_blank"
+              >Github</a
+            > -->
+          </div>
+        </article>
+       
+      </div>
+    </section>
+
+    <!-- ========================== PROJECTs  END=================== -->
+
+    <!-- ========================== TESTIMONIAL =================== -->
+
+    <section class="swiper">
+      <h1>what my clints say</h1>
+      <p>This is what my clients say about me and my work.</p>
+      <div class="swiper-wrapper">
+        <figure class="swiper-slide">
+          <figcaption>
+            John is a one of a kind.I've worked with many developers and he
+            stands out in every aspect!He delivers on time,and communicates
+            every step of his process to make sure we're both on the same
+            path.Highly recommend him!
+          </figcaption>
+
+          <div class="swiper__client">
+            <div class="swiper__client-avatar">
+              <img src="./assets/avatar1.jpg" alt="client one" />
+            </div>
+            <div class="swiper__client-details">
+              <h5>Nana Ama McBrown</h5>
+              <small>Actress</small>
+            </div>
+          </div>
+        </figure>
+
+        <figure class="swiper-slide">
+          <figcaption>
+            YOu are the real deal,John. I like how you handled my project from
+            start to finish. Your gigs were very reasonable too.I appreciate
+            your professionalism.I highly recommend you to anyone who means
+            business!amet consectetur adipisicing tot elit.
+          </figcaption>
+
+          <div class="swiper__client">
+            <div class="swiper__client-avatar">
+              <img src="./assets/avatar2.jpg" alt="client two" />
+            </div>
+            <div class="swiper__client-details">
+              <h5>John Dumelo</h5>
+              <small>Politician</small>
+            </div>
+          </div>
+        </figure>
+
+        <figure class="swiper-slide">
+          <figcaption>
+            ipsum dolor sit, amet consectetur adipisicing elit. Totam explicabo
+            voluptas possimus blanditiis reiciendis sapiente aut, ullam
+            mollitia? Enim sequi neque optio quaerat minima omnis magni ab amet
+            eum provident?
+          </figcaption>
+
+          <div class="swiper__client">
+            <div class="swiper__client-avatar">
+              <img src="./assets/avatar3.jpg" alt="client seven" />
+            </div>
+            <div class="swiper__client-details">
+              <h5>Daniel Vinyo</h5>
+              <small>Business</small>
+            </div>
+          </div>
+        </figure>
+
+        <figure class="swiper-slide">
+          <figcaption>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            explicabo voluptas possimus blanditiis reiciendis sapiente aut,
+            ullam mollitia? Enim sequi neque optio quaerat minima omnis magni ab
+            amet eum provident?
+          </figcaption>
+
+          <div class="swiper__client">
+            <div class="swiper__client-avatar">
+              <img src="./assets/avatar4.jpg" alt="client seven" />
+            </div>
+            <div class="swiper__client-details">
+              <h5>Eva Apio</h5>
+              <small>Model</small>
+            </div>
+          </div>
+        </figure>
+
+        <figure class="swiper-slide">
+          <figcaption>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+            explicabo voluptas possimus blanditiis reiciendis sapiente aut,
+            ullam mollitia? Enim sequi neque optio quaerat minima omnis magni ab
+            amet eum provident?
+          </figcaption>
+
+          <div class="swiper__client">
+            <div class="swiper__client-avatar">
+              <img src="./assets/avatar5.jpg" alt="client seven" />
+            </div>
+            <div class="swiper__client-details">
+              <h5>Diana Ayi</h5>
+              <small>Engineer</small>
+            </div>
+          </div>
+        </figure>
+      </div>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- ===========End of testimonial================= -->
+
+    <!-- ===========Contact Section ============= -->
+
+    <section class="contact" id="contact">
+      <div class="container contact__container">
+        <ul class="contact__list">
+          <li data-aos="fade-in">
+            <a
+              href="janedramani211@gmail.com"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-envelope"></i>
+            </a>
+          </li>
+          <li data-aos="fade-in" data-aos-delay="80">
+            <a
+              href="https://www.messenger.com/j/5638478"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-facebook-messenger-alt"></i>
+            </a>
+          </li>
+          <li data-aos="fade-in" data-aos-delay="160">
+            <a
+              href="https://wa.me/+8960397"
+              class="contact__list-item"
+              target="_blank"
+            >
+              <i class="uil uil-whatsapp"></i>
+            </a>
+          </li>
+          <li data-aos="fade-in" data-aos-delay="200">
+            <a href="tel:+76398" class="contact__list-item" target="_blank">
+              <i class="uil uil-phone"></i>
+            </a>
+          </li>
+        </ul>
+
+        <form
+          action="https://formsubmit.co/esratjahanjui327@gmail.com"
+          method="POST"
+          class="contact__form"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <input type="text" name="Name" placeholder="Full Name" />
+          <input type="email" name="Email" placeholder="Email Address" />
+          <textarea rows="7" name="Message" placeholder="Message"></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- ==============END OF Contact=========== -->
+
+    <!-- ============Footer========== -->
+
+    <footer>
+      <div class="container footer__container">
+        <ul class="footer__menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#projects">Project</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="footer__socials">
+          <li>
+            <a href="https://twitter.com/" target="_blank">
+              <i class="uil uil-twitter-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/" target="_blank">
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/" target="_blank">
+              <i class="uil uil-linkedin-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/" target="_blank"
+              ><i class="uil uil-dribbble"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__copyright">
+        <small> 2024 esratJahanJui &copy; All Rights Reserved. </small>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./mix/dist/mixitup.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1500, offset: 80 });
+    </script>
+    <script src="./assets/data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
