@@ -30,6 +30,19 @@
 // getService("frontend");
 // END OF SERVICE SECTION========
 
+
+// Hard-coded date (e.g., November 15, 2024)
+const hardCodedDate = "November 15, 2024";
+
+// Display the hard-coded date on the card
+// document.getElementById("date").innerText = hardCodedDate;
+
+
+
+
+
+
+
 // ============MIXITUP===========
 
 const containerEl = document.querySelector(".projects__container");

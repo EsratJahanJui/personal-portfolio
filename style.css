@@ -763,3 +763,13 @@ footer {
     align-items: center;
   }
 }
+
+
+/* -------------- */
+
+.date {
+  font-size: 1em;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
